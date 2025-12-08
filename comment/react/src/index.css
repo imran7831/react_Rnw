@@ -1,0 +1,86 @@
+body {
+  font-family: 'Inter', sans-serif;
+  background: #000000;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 10px auto;
+}
+
+.card {
+  background: #ffffff;
+  color: black;
+  border-radius: 2px;
+  padding: 10px;
+  margin-bottom: 5px;
+  box-shadow: none;
+}
+
+input, select, textarea {
+  width: 80%;
+  padding: 5px;
+  font-size: 11px;
+  border: 2px solid lime;
+  background: rgb(42, 16, 21);
+  color: rgb(255, 255, 255);
+  margin-bottom: 2px;
+}
+
+input:focus, textarea:focus, select:focus {
+  border-color: orange;
+  box-shadow: none;
+  outline: none;
+}
+
+button {
+  background: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  padding: 3px 6px;
+  font-size: 10px;
+  border: 2px solid blue;
+  border-radius: 0;
+  cursor: pointer;
+}
+button:disabled {
+  background: rgb(255, 255, 255);
+  color: black;
+}
+
+.badge {
+  padding: 2px 6px;
+  font-size: 9px;
+  border-radius: 0;
+  margin-right: 2px;
+  color: white;
+  background: purple;
+}
+.badge.priority-high { background: red; }
+.badge.priority-medium { background: orange; }
+.badge.priority-low { background: green; }
+.badge.category-bug { background: navy; }
+.badge.category-suggestion { background: teal; }
+.badge.category-complaint { background: maroon; }
+.badge.category-other { background: brown; }
+ul {
+  padding-left: 10px;
+  margin-top: 3px;
+}
+img {
+  width: 70%;
+  border: 3px solid red;
+  margin-top: 5px;
+}
+
+h2, h3, h4 {
+  font-size: 12px;
+  margin: 2px 0;
+}
+
+.card button {
+  margin-top: 2px;
+}
